@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<h2>Hola Ecuador!</h2>"
+    return "<h2>Hola.. Mi pais Ecuador!</h2>"
 
 
 @app.route("/api/stock")
